@@ -27,17 +27,7 @@ b.2. **Install Required Libraries**: Install `geopandas` for GIS data manipulati
 pip install geopandas matplotlib folium
 ```
 
-### Step 2: Prepare the Data
-
-1. **Unzip the Dataset**: Extract the contents of `LF2023_Puerto_Rico_Virgin_Islands_240_IA.zip` to a subdirectory within your project directory.
-
-```bash
-unzip LF2023_Puerto_Rico_Virgin_Islands_240_IA.zip -d data_directory
-```
-
-2. **Explore the Data**: Identify the key shapefiles or data files you'll be working with.
-
-### Step 3: Load and Clean the Data
+### Step 2: Load and Clean the Data
 
 1. **Load the Data**: Use `geopandas` to read the shapefile(s).
 
@@ -45,7 +35,7 @@ unzip LF2023_Puerto_Rico_Virgin_Islands_240_IA.zip -d data_directory
 import geopandas as gpd
 
 # Adjust the file path as needed
-data_path = 'data_directory/your_shapefile.shp'
+data_path = 'LF2023_PRVI_240_IA/LF2023_LDist_240_PRVI/Spatial_Metadata/z90_prvi_0k.shp'
 gdf = gpd.read_file(data_path)
 ```
 
@@ -56,7 +46,7 @@ gdf = gpd.read_file(data_path)
 gdf = gdf[gdf.geometry.notnull()]
 ```
 
-### Step 4: Analyze the Data
+### Step 3: Analyze the Data
 
 1. **Perform Spatial Analysis**: Depending on your project goal, this might include calculating areas, distances, spatial joins, or other GIS operations.
 
@@ -65,7 +55,7 @@ gdf = gdf[gdf.geometry.notnull()]
 gdf['area'] = gdf.geometry.area
 ```
 
-### Step 5: Visualize the Data
+### Step 4: Visualize the Data
 
 1. **Create Visualizations**: Use `matplotlib` for static maps or `folium` for interactive maps.
 
@@ -85,11 +75,6 @@ m = folium.Map(location=[latitude, longitude], zoom_start=12)
 folium.GeoJson(gdf).add_to(m)
 m.save('map.html')
 ```
-
-### Step 6: Document and Share on GitHub
-
-1. **Create a README File**: Explain the project's purpose, data sources, methodology, and instructions for running the code.
-2. **Push to GitHub**: Initialize a git repository, commit your project files, and push them to a new GitHub repository.
 
 ```bash
 git init
