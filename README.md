@@ -5,14 +5,23 @@ It is GIS data. Here's a step-by-step guide to set up a simple Python project us
 ### Step 1: Set Up Your Project Environment
 
 1. **Create a Project Directory**: Organize your project files in a dedicated folder.
-2. **Initialize a Python Environment**: Use virtual environments (`venv`) to manage your project dependencies.
 
+a. If you have installed conda, you can just use the following command in Anaconda Prompt:
+```bash
+conda env create -f environment.yml
+```
+
+b. If you do not have installed conda, please follow step b.1 to b.2.
+
+b.1. **Initialize a Python Environment**: 
+
+ use virtual environments (`venv`) to manage your project dependencies.
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
-3. **Install Required Libraries**: Install `geopandas` for GIS data manipulation, and `matplotlib` or `folium` for visualization.
+b.2. **Install Required Libraries**: Install `geopandas` for GIS data manipulation, and `matplotlib` or `folium` for visualization.
 
 ```bash
 pip install geopandas matplotlib folium
