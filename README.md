@@ -75,11 +75,3 @@ m = folium.Map(location=[latitude, longitude], zoom_start=12)
 folium.GeoJson(gdf).add_to(m)
 m.save('map.html')
 ```
-
-```bash
-git init
-git add .
-git commit -m "Initial project setup with GIS analysis"
-git remote add origin <your-repository-url>
-git push -u origin master
-```
