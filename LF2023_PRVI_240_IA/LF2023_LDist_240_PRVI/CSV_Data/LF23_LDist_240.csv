@@ -1,0 +1,54 @@
+﻿VALUE,DIST_YEAR,DIST_TYPE,TYPE_CONFIDENCE,SEVERITY,SEV_SOURCE,SEV_CONFIDENCE,SOURCE1,SOURCE2,SOURCE3,SOURCE4,DESCRIPTION,R,G,B,RED,GREEN,BLUE
+-9999,2023,Fill-NoData,NA,NA,NA,NA,NA,NA,NA,NA,NA,255,255,255,1,1,1
+0,2023,NA,NA,NA,NA,NA,NA,NA,NA,NA,Background,0,0,0,0,0,0
+11,2023,Fire,High,Unburned/Low,MTBS,High,MTBS,NA,NA,NA,MTBS Provisional Initial Assessment (PIA) mapped fire.,255,0,0,1,0,0
+12,2023,Fire,High,Low,MTBS,High,MTBS,NA,NA,NA,MTBS Provisional Initial Assessment (PIA) mapped fire.,255,0,0,1,0,0
+13,2023,Fire,High,Medium,MTBS,High,MTBS,NA,NA,NA,MTBS Provisional Initial Assessment (PIA) mapped fire.,255,0,0,1,0,0
+14,2023,Fire,High,High,MTBS,High,MTBS,NA,NA,NA,MTBS Provisional Initial Assessment (PIA) mapped fire.,255,0,0,1,0,0
+15,2023,Fire,High,Increased Green,MTBS,High,MTBS,NA,NA,NA,MTBS Provisional Initial Assessment (PIA) mapped fire.,255,0,0,1,0,0
+16,2023,Water,High,NA,NA,NA,LANDFIRE Water Mask,NA,NA,NA,Water body or other non-mappable land cover type.,0,0,255,0,0,1
+21,2023,Fire,High,Unburned/Low,BARC,High,BARC,NA,NA,NA,BARC mapped fire.,255,0,0,1,0,0
+22,2023,Fire,High,Low,BARC,High,BARC,NA,NA,NA,BARC mapped fire.,255,0,0,1,0,0
+23,2023,Fire,High,Medium,BARC,High,BARC,NA,NA,NA,BARC mapped fire.,255,0,0,1,0,0
+24,2023,Fire,High,High,BARC,High,BARC,NA,NA,NA,BARC mapped fire.,255,0,0,1,0,0
+25,2023,Water,High,NA,NA,NA,BARC,NA,NA,NA,BARC mapped water body.,0,0,255,0,0,1
+31,2023,Fire,High,Unburned/Low,RAVG,High,RAVG,NA,NA,NA,RAVG mapped fire.,255,0,0,1,0,0
+32,2023,Fire,High,Low,RAVG,High,RAVG,NA,NA,NA,RAVG mapped fire.,255,0,0,1,0,0
+33,2023,Fire,High,Medium,RAVG,High,RAVG,NA,NA,NA,RAVG mapped fire.,255,0,0,1,0,0
+34,2023,Fire,High,High,RAVG,High,RAVG,NA,NA,NA,RAVG mapped fire.,255,0,0,1,0,0
+111,2023,Fire,High,Unburned/Low,MTBS,Medium,Decision Tree Modeled,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with See5 classified output.,255,0,0,1,0,0
+112,2023,Fire,High,Low,MTBS,Medium,Decision Tree Modeled,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with See5 classified output.,255,0,0,1,0,0
+113,2023,Fire,High,Medium,MTBS,Medium,Decision Tree Modeled,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with See5 classified output.,255,0,0,1,0,0
+114,2023,Fire,High,High,MTBS,Medium,Decision Tree Modeled,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with See5 classified output.,255,0,0,1,0,0
+115,2023,Fire,High,Increased Green,MTBS,Medium,Decision Tree Modeled,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with See5 classified output.,255,0,0,1,0,0
+211,2023,Fire,High,Unburned/Low,MTBS,Low,Focal Majority,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+212,2023,Fire,High,Low,MTBS,Low,Focal Majority,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+213,2023,Fire,High,Medium,MTBS,Low,Focal Majority,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+214,2023,Fire,High,High,MTBS,Low,Focal Majority,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+215,2023,Fire,High,Increased Green,MTBS,Low,Focal Majority,MTBS,NA,NA,MTBS Provisional Initial Assessment (PIA) gap (value = 6) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+221,2023,Fire,High,Unburned/Low,BARC,Low,Focal Majority,BARC,NA,NA,"BARC gap (values = 5, 6) filled with 13x13 focal majority matrix.",255,0,0,1,0,0
+222,2023,Fire,High,Low,BARC,Low,Focal Majority,BARC,NA,NA,"BARC gap (values = 5, 6) filled with 13x13 focal majority matrix.",255,0,0,1,0,0
+223,2023,Fire,High,Medium,BARC,Low,Focal Majority,BARC,NA,NA,"BARC gap (values = 5, 6) filled with 13x13 focal majority matrix.",255,0,0,1,0,0
+224,2023,Fire,High,High,BARC,Low,Focal Majority,BARC,NA,NA,"BARC gap (values = 5, 6) filled with 13x13 focal majority matrix.",255,0,0,1,0,0
+231,2023,Fire,High,Unburned/Low,RAVG,Low,Focal Majority,RAVG,NA,NA,RAVG gap (value = 9) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+232,2023,Fire,High,Low,RAVG,Low,Focal Majority,RAVG,NA,NA,RAVG gap (value = 9) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+233,2023,Fire,High,Medium,RAVG,Low,Focal Majority,RAVG,NA,NA,RAVG gap (value = 9) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+234,2023,Fire,High,High,RAVG,Low,Focal Majority,RAVG,NA,NA,RAVG gap (value = 9) filled with 13x13 focal majority matrix.,255,0,0,1,0,0
+1511,2023,Development,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Development LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,191,191,191,0.74902,0.74902,0.74902
+1523,2023,Clearcut,High,High,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Clearcut LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned High based on disturbance type.,128,97,69,0.501961,0.380392,0.270588
+1531,2023,Harvest,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Harvest LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,255,255,119,1,1,0.466667
+1541,2023,Thinning,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Thinning LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,181,156,114,0.709804,0.611765,0.447059
+1551,2023,Mastication,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Mastication LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,255,102,0,1,0.4,0
+1561,2023,Other Mechanical,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Other Mechanical LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,96,255,71,0.376471,1,0.278431
+1572,2023,Wildfire,High,Medium,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Wildfire LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Medium based on disturbance type.,255,0,0,1,0,0
+1582,2023,Wildland Fire Use,High,Medium,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Wildland Fire Use LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Medium based on disturbance type.,255,0,0,1,0,0
+1591,2023,Prescribed Fire,High,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Prescribed Fire LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,173,0,28,0.678431,0,0.109804
+1602,2023,Wildland Fire,High,Medium,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Wildland Fire LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Medium based on disturbance type.,255,0,0,1,0,0
+1611,2023,Weather,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Weather LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,191,191,191,0.74902,0.74902,0.74902
+1621,2023,Insecticide,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Insecticide LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,67,162,181,0.262745,0.635294,0.709804
+1631,2023,Chemical,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Chemical LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,255,255,0,1,1,0
+1641,2023,Insects,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Insects LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,146,232,215,0.572549,0.909804,0.843137
+1651,2023,Disease,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Disease LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,4,45,117,0.015686,0.176471,0.458824
+1661,2023,Insects/Disease,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Insect/Disease LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,0,0,255,0,0,1
+1671,2023,Herbicide,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Herbicide LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,192,255,138,0.752941,1,0.541176
+1681,2023,Biological,Medium,Low,LANDFIRE Events Geodatabase,Low,LANDFIRE Events Geodatabase,NA,NA,NA,Biological LANDFIRE Events Geodatabase polygon. Image-based severity unavailable so assigned Low based on disturbance type.,0,51,0,0,0.2,0

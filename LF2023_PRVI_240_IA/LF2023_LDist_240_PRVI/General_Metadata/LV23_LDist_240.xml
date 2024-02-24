@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Landscape Fire and Resource Management Planning Tools (LANDFIRE)</origin>
+        <origin>Timothy Hatten, USGS PM </origin>
+        <pubdate>20240131</pubdate>
+        <title>LANDFIRE Limited Annual Disturbance Puerto Rico US Virgin Islands 2023</title>
+        <edition>LF 2023</edition>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://www.landfire.gov</onlink>
+        <onlink>https://doi.org/10.5066/P9BJP7OV</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The LANDFIRE Limited Disturbance (LDist)23 product is a new product introduced with the LF 2023 Update (LF 2023). LDist23 is an early "draft" of the LANDFIRE Annual Disturbance product and includes disturbance events captured through October 31, 2023. LDist23 is the first of three Annual Disturbance products releasing in the LF 2023 Update. LDist23 releases in January 2024, then Preliminary Disturbance (PDist)23 will release mid-year 2024. PDist23 will be the second "draft" of Annual Disturbance for the LF 2023 update. Finally, in the fall of 2024 the final "draft" of Annual Disturbance (Dist23) will be released. </abstract>
+      <purpose>The LF 2023 Update (LF 2023) is the latest LANDFIRE update to the base map LF 2016 Remap and will be releasing throughout calendar year 2024.  </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2023</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-68.1956</westbc>
+        <eastbc>-64.2952</eastbc>
+        <northbc>19.5564</northbc>
+        <southbc>16.6276</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>fires</themekey>
+        <themekey>hazard preparedness</themekey>
+        <themekey>remote sensing</themekey>
+        <themekey>image collections</themekey>
+        <themekey>geospatial datasets</themekey>
+        <themekey>geographic information systems</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>raster digital data </themekey>
+        <themekey>annual disturbance </themekey>
+        <themekey>yearly disturbance</themekey>
+        <themekey>U.S. Geological Survey (USGS)</themekey>
+        <themekey>U.S. Forest Service (USFS)</themekey>
+        <themekey>LANDFIRE 2023</themekey>
+        <themekey>Limited Annual Disturbance 2023</themekey>
+        <themekey>LF 2023</themekey>
+        <themekey>LDist</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>US</placekey>
+        <placekey>IA</placekey>
+        <placekey>Insular Areas</placekey>
+        <placekey>United States</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>US Virgin Islands</placekey>
+        <placekey>OCONUS</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None </useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntemail>helpdesk@landfire.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>These products were created by the LF team at USGS EROS, Sioux Falls, SD. Refer to the contact information throughout this metadata to contact the LF team.</datacred>
+    <secinfo>
+<secsys>None in place</secsys>
+<secclass>Unclassified</secclass>
+<sechandl>If there is ever doubt, contact the LF Help Desk at helpdesk@landfire.gov</sechandl>
+</secinfo>
+    <native>Microsoft Windows 10; ESRI ArcGIS Suite</native>
+    <crossref>
+      <citeinfo>
+        <origin>USGS</origin>
+        <pubdate>2013</pubdate>
+        <title>A comprehensive change detection method for updating the National Land Cover Database to circa 2011</title>
+        <geoform>publication</geoform>
+        <othercit>Jin et al. 2013
+</othercit>
+        <onlink>https://doi.org/10.1016/j.rse.2013.01.012</onlink>
+        <onlink>https://www.sciencedirect.com/science/article/pii/S0034425713000242</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>USGS Advanced Research Computing (ARC)</origin>
+        <pubdate>2021</pubdate>
+        <title>USGS Denali Supercomputer: U.S. Geological Survey</title>
+        <geoform>publication</geoform>
+        <onlink>https://www.usgs.gov/advanced-research-computing/usgs-denali-supercomputer</onlink>
+        <onlink>https://www.usgs.gov/advanced-research-computing</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>NASA</origin>
+        <origin>USGS</origin>
+        <pubdate>2018</pubdate>
+        <title>The Harmonized Landsat and Sentinel-2 Surface Reflectance Data Set</title>
+        <geoform>publication</geoform>
+        <othercit>Claverie, M., Ju, J., Masek, J. G., Dungan, J. L., Vermote, E. F., Roger, J.-C., Skakun, S. V., and Justice, C. (2018). The Harmonized Landsat and Sentinel-2 surface reflectance data set. Remote Sensing of Environment, 219, 145-161.</othercit>
+        <onlink>https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Products were tested to ensure that each attribute is represented consistently across all data sets. Attributes were not validated against in person observations. </attraccr>
+    </attracc>
+    <logic>The products were pixel "truth" tested for consistency of land or water characteristics across all products. </logic>
+    <complete>Products were formally tested to ensure that valid data was produced for all pixels. Each product was then validated and tested for duplicates, omissions, and errors.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>US Forest Service (USFS)</origin>
+            <origin>US Natural Resource Manager's (USNRM)</origin>
+            <pubdate>2009</pubdate>
+            <title>Forest Service Activity Tracking System (FACTS)</title>
+            <geoform>remote-sensing image</geoform>
+            <onlink>https://data.fs.usda.gov/geodata/edw/datasets.php</onlink>
+            <onlink>https://data.fs.usda.gov/nrm/briefingpapers/FACTS.pdf </onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2009</begdate>
+              <enddate>2023</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>FACTS</srccitea>
+        <srccontr>Landscape change in forested areas </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>US Forest Service (USFS)</origin>
+            <origin>US Department of the Interior (USDOI)</origin>
+            <pubdate>2000</pubdate>
+            <title>National Fire Plan Operations and Reporting System (NFPORS)</title>
+            <geoform>application/service</geoform>
+            <onlink>https://www.nfpors.gov/</onlink>
+            <onlink>https://www.forestsandrangelands.gov/resources/overview/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2000</begdate>
+              <enddate>2023</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>NFPORS</srccitea>
+        <srccontr>National Fire Plan </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>US Bureau of Land Management (USBLM)</origin>
+            <origin>National Park Service (USNPS)</origin>
+            <origin>US Forest Service (USFS)</origin>
+            <origin>US Fish and Wildlife Service (USFWS)</origin>
+            <origin>Fire Administration and the National Association of State Foresters</origin>
+            <origin>US Bureau of Indian Affairs (USBIA)</origin>
+            <pubdate>1965</pubdate>
+            <title>National Interagency Fire Center (NIFC)</title>
+            <geoform>application/service</geoform>
+            <onlink>https://www.nifc.gov/</onlink>
+            <onlink>https://www.nifc.gov/fire-information/maps</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1965</begdate>
+              <enddate>2023</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>NIFC</srccitea>
+        <srccontr>Wildfire maps</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>LDist23 was produced without Landsat RSLC imagery or severity and used four main online sources: Forest Service Activity Tracking System (FACTS), National Fire Plan Operations and Reporting System (NFPORS), and National Interagency Fire Center (NIFC). Three main submitted sources were also used: the US Bureau of Land Management (BLM), National Park Service (NPS), and the US Fish and Wildlife Service (USFWS). Find the full list of LANDFIRE contributors and learn more about what products/data is contributed by each organization here https://landfire.gov/compiled_data_search.php. 
+
+LDist23 is the first of three Annual Disturbance products releasing in the LF 2023 Update.  </procdesc>
+        <procdate>20240131</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>6768</rowcount>
+      <colcount>12846</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0</feast>
+            <fnorth>0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30</absres>
+            <ordres>30</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (NAD 83)</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef/>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LDist2023</enttypl>
+        <enttypd>LF 2023 Limited Disturbance 2023 attributes spreadsheet.</enttypd>
+        <enttypds>LF 2023</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Code representing the general category of the disturbance, disturbance type, and severity.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-9999</edomv>
+            <edomvd>Fill-NoData</edomvd>
+            <edomvds>LF 2023</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1681</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIST_YEAR</attrlabl>
+        <attrdef>Approximate year in which the disturbance occurred.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2023</rdommin>
+            <rdommax>2023</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIST_TYPE</attrlabl>
+        <attrdef>A general category of disturbance derived from the dist_type attribute in the disturbance grids.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Disturbance type.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>TYPE_CONFIDENCE</attrlabl><attrdef>Classification level of confidence in the assignment of disturbance type.</attrdef><attrdefs>LF 2023</attrdefs><attrdomv><edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom></attrdomv><attrdomv>
+    <edom>
+      <edomv>High</edomv>
+      <edomvd>High confidence.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Medium</edomv>
+      <edomvd>Medium confidence.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>SEVERITY</attrlabl>
+        <attrdef>An indication of the severity of disturbance. Unburned/Low, Low, Medium, High, Water, and Increased Green.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Severity of disturbance.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEV_SOURCE</attrlabl>
+        <attrdef>Severity source. MTBS, BARC, RAVG, or dNBR.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Severity source.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEV_CONFIDENCE</attrlabl>
+        <attrdef>Confidence is evaluated based on the input data sources. For example, a mapped wildfire disturbance identified in LF Events and Landsat image change detection would have a higher confidence than a disturbance identified by Landsat image change detection only since the cause is unknown.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Severity confidence. High, medium, or low.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>SOURCE1</attrlabl><attrdef>MTBS, BARC, RAVG, Decision Tree Modeled, LF Events, and Landsat image-based change detection.</attrdef><attrdefs>LF 2023</attrdefs><attrdomv><edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom></attrdomv><attrdomv>
+    <edom>
+      <edomv>MTBS</edomv>
+      <edomvd>Monitoring Trends in Burn Severity.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>LANDFIRE Water Mask</edomv>
+      <edomvd>Water mask.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>BARC</edomv>
+      <edomvd>Burned Area Reflectance Classification.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>RAVG</edomv>
+      <edomvd>Rapid Assessment of Vegetation Condition after Wildfire.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Decision Tree Modeled</edomv>
+      <edomvd>Decision tree model.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Focal Majority</edomv>
+      <edomvd>Focal majority.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>LANDFIRE Events Geodatabase</edomv>
+      <edomvd>LF Public Events.</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+  <attrlabl>SOURCE2</attrlabl><attrdef>MTBS, RAVG, Landsat image-based change detection, Protected Area Database GAP Status, and dNBR.</attrdef><attrdefs>LF 2023</attrdefs><attrdomv><edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom></attrdomv><attrdomv>
+    <edom>
+      <edomv>MTBS</edomv>
+      <edomvd>MTBS</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>BARC</edomv>
+      <edomvd>BARC</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>RAVG</edomv>
+      <edomvd>RAVG</edomvd>
+      <edomvds>LF 2023</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>SOURCE3</attrlabl>
+        <attrdef>differenced Normalized Burn Ratio.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>differenced Normalized Burn Ratio.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE4</attrlabl>
+        <attrdef>Burned Area Essential Climate Product (BAECV).</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>BAECV</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTION</attrlabl>
+        <attrdef>Description information.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>LF 2023</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Description information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R</attrlabl>
+        <attrdef>Red color value/255</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G</attrlabl>
+        <attrdef>Green color value/255</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B</attrlabl>
+        <attrdef>Blue color value/255</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RED</attrlabl>
+        <attrdef>Red color value.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GREEN</attrlabl>
+        <attrdef>Green color value.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BLUE</attrlabl>
+        <attrdef>Blue color value.</attrdef>
+        <attrdefs>LF 2023</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>LANDFIRE (LF) Limited Annual Disturbance PRVI. An Attribute Table is included with each product download as a .csv and embedded in the metadata. The Attribute Data Dictionary (ADD) can be found at https://www.landfire.gov/.</eaover>
+      <eadetcit>https://www.landfire.gov/disturbance_2.php</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>This product is reproduced from geospatial information prepared by the U.S. Department of the Interior (DOI) USGS EROS. By removing the contents of this package or taking receipt of these files via electronic file transfer methods, you understand that the data stored on this media can be updated at any time. Represented features may not be in an accurate geographic location. USGS EROS makes no expressed or implied warranty, including warranty of merchantability and fitness, with respect to the character, function, or capabilities of the data or their appropriateness for any user's purposes. USGS EROS reserves the right to correct, update, modify, or replace this geospatial information without notification.
+
+Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+<formname>ARCG</formname>
+<formverd>20240131</formverd> 
+<formspec>LF 2023</formspec>
+</digtinfo>
+<digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/P9BJP7OV</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20240131</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntemail>helpdesk@landfire.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+<metscs>None</metscs>
+<metsc>Unclassified</metsc>
+<metshd>None</metshd>
+</metsi>
+  </metainfo>
+</metadata>

@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</origin>
+        <pubdate>20210225</pubdate>
+        <title>LANDFIRE Remap Fuel Characteristic Classification System (FCCS) Puerto Rico US Virgin Islands</title>
+        <edition>LF Remap</edition>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://www.landfire.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The LF Remap Fuel Characteristic Classification System (FCCS) calculates fuelbed characteristics and their potential fire behavior and effects. LF defines fuelbed as: the inherent physical characteristics of fuel that contribute to fire behavior and effects (Riccardi et al. 2007). FCCS represents the composition of fuels, and features six horizontal fuel layers called stratums (canopy, shrubs, herbs, downed wood, litter and duff). FCCS can be used for predicting surface fire behavior, crown fire potential, and fuel availability. FCCS fuelbeds are included preloaded in the US Forest Service (USFS) Fuel and Fire Tools (FFT) application. 
+
+LF collaborated with the Fire and Environmental Research Applications (FERA) team of the USFS Pacific Northwest Research Station for creation of the FCCS product. Rule-based methods for crosswalks and mapping FCCS fuelbeds are constructed from the LF Remap Existing Vegetation Type (EVT) product. The EVT-to-fuelbed crosswalk rules often allow for several possibilities for fuelbeds; expert opinion is used to assign the most representative fuelbed and to determine where additional fuelbed development is necessary. FCCS fuelbed mapping should be considered a starting point and customized to represent sampled fuels within a project area. FCCS is a capable fuels product, capable fuels calculate TSD assignments for disturbed areas using an effective year. For example, year 2020 fuels may be calculated for the year 2020. the new process considers all the existing disturbances included in LF Remap and adjusts the TSD for these to the effective year (2020 in the example), making the products "2020 capable fuels." More information about capable fuels can be found at https://www.landfire.gov/lf_remap.php. See the FCCS product page on the LF website for additional details https://www.landfire.gov/fccs.php. 
+</abstract>
+      <purpose>LF Remap is a comprehensive mapping effort that uses recent data to create a new base map product suite that better represents contemporary conditions. LF Remap represents circa 2016 ground conditions and is designed to produce vegetation, disturbance, and fuels products that inform wildland fire and ecological decision systems. LF Remap has improved past methodologies and processes to incorporate current satellite imagery, contemporary data sources, and the latest software and hardware technologies. Final LF Remap products offer significant improvements to all previous LF versions (read more about versions here https://www.landfire.gov/lf_schedule.php).
+
+LF Remap products are designed to facilitate national and regional level strategic fire and resource management planning and reporting of management activities. The principal purposes of the products include providing, 1) national level, landscape scale geospatial products to support fire and fuels management planning, and 2) consistent fuels products to support fire planning, analysis, and budgeting to evaluate fire management alternatives. 
+
+Products are created at a 30 meter raster; however, the applicability of products varies by location and specific use. LF products were designed to support 1) national (all states) strategic planning, 2) regional (single large states or groups of smaller states), and 3) strategic/tactical planning for large sub regional landscapes and Fire Management Units (FMUs) (such as significant portions of states or multiple federal administrative entities). The applicability of LF products to support fire and land management planning on smaller areas will vary by product, location, and specific use. Managers and planners must evaluate LF products according to the scale and requirements specific to their needs.
+</purpose>
+      <supplinf>This product has 2020 capable fuels functionality. 
+
+LF 2016 Remap Insular Areas (IA) were produced from the GMTED2010 data available on Earth Explorer (earthexplorer.usgs.gov). With the help of online shoreline data from (https://products.coastalscience.noaa.gov/collections/benthic/e99us_pac/) and online FAS_GIS_Mosaics (https://www.nodc.noaa.gov/cgi-bin/OAS/prd/accession/download/67475). During the production of the LF Remap IA products, shoreline data was buffered 3 Nautical Miles (American Samoa, Guam-Commonwealth of Northern Mariana Islands, Palau, and Puerto Rico-U.S. Virgin Islands) and those extents were used.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2016</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Biennially</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-68.1956</westbc>
+        <eastbc>-64.2952</eastbc>
+        <northbc>19.5564</northbc>
+        <southbc>16.6276</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>fires</themekey>
+        <themekey>hazard preparedness</themekey>
+        <themekey>remote sensing</themekey>
+        <themekey>image collections</themekey>
+        <themekey>geospatial datasets</themekey>
+        <themekey>geographic information systems</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>raster digital data </themekey>
+        <themekey>Fuel Characteristic Classification System </themekey>
+        <themekey>FCCS</themekey>
+        <themekey>U.S. Geological Survey (USGS)</themekey>
+        <themekey>U.S. Forest Service (USFS)</themekey>
+        <themekey>LANDFIRE Remap</themekey>
+        <themekey>LANDFIRE 2016</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>US</placekey>
+        <placekey>IA</placekey>
+        <placekey>United States</placekey>
+        <placekey>Insular Areas</placekey>
+        <placekey>OCONUS</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>US Virgin Islands</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntemail>helpdesk@landfire.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>These products were created by the LF team at USGS EROS, Sioux Falls, SD. Refer to the contact information throughout the metadata to contact the LF team.</datacred>
+    <secinfo>
+<secsys>None in place</secsys>
+<secclass>Unclassified</secclass>
+<sechandl>If there is ever doubt, contact the LF Help Desk at helpdesk@landfire.gov</sechandl>
+</secinfo>
+    <native>Microsoft Windows 10; ESRI ArcCatalog 10.6.1</native>
+    <crossref>
+      <citeinfo>
+        <origin>USFS Pacific Northwest Research Station </origin>
+        <pubdate>2007</pubdate>
+        <title>The fuelbed: a key element of the Fuel Characteristic Classification System</title>
+        <geoform>publication</geoform>
+        <othercit>Riccardi, Cynthia L.; Ottmar, Roger D.; Sandberg, David V.; Andreu, Anne; Elman, Ella; Kopper, Karen; Long, Jennifer. 2007. The fuelbed: a key element of the Fuel Characteristic Classification System. Canadian Journal of Forest Research. 37: 2394-2412
+</othercit>
+        <onlink>https://doi.org/10.1139/X07-143</onlink>
+        <onlink>https://www.fs.usda.gov/treesearch/pubs/29403</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Products were tested to ensure that each attribute is represented consistently across all data sets. Attributes were not validated against in person observations. </attraccr>
+    </attracc>
+    <logic>The products were pixel "truth" tested for consistency of land or water characteristics across all products. </logic>
+    <complete>Products were formally tested to ensure that valid data was produced for all pixels. Each product was then validated and tested for duplicates, omissions, and errors.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>Beginning in 2016 LF Remap products were created using recent advances in image compositing, tiling algorithms, and faster computing hardware to ensure that LF products remained relevant. LF Remap leveraged the Landsat archive, lidar data, and user contributed field plot data compiled into the LF Reference Database (LFRDB), to create new base map vegetation products. Reference resources included, but were not limited to, Forest Inventory and Analysis (FIA) program plot data (USFS https://fia.fs.fed.us/), Landsat Dynamic Surface Water Extent [(DSWE) USGS https://www.usgs.gov/land-resources/nli/landsat/], the National Land Cover Dataset [(NLCD) USGS https://www.mrlc.gov/data], and National Agricultural Statistics Service [(NASS) USDA - https://www.nass.usda.gov/]. To read more about LF reference resources go to https://www.landfire.gov/reference.php. Information about LF Remap product testing is available by request or via the website at https://www.landfire.gov.</procdesc>
+        <procdate>20210225</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>6768</rowcount>
+      <colcount>12846</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.0</absres>
+            <ordres>30.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.2572221010042</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FCCS</enttypl>
+        <enttypd>LF Remap FCCS attributes spreadsheet.</enttypd>
+        <enttypds>LF Remap</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Value code.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-9999</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>LF Remap</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1283</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>FCCS_Region</attrlabl><attrdef>Region.</attrdef><attrdefs>LF Remap</attrdefs><attrdomv>
+    <edom>
+      <edomv>NoData</edomv>
+      <edomvd>No Data.</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>All</edomv>
+      <edomvd>All regions.</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Pacific Northwest</edomv>
+      <edomvd>Pacific NW.</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Sierra Nevada</edomv>
+      <edomvd>Sierra Nevada.</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Rocky Mountain and Central US</edomv>
+      <edomvd>Rocky Mountain and Central U.S.</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Southwest</edomv>
+      <edomvd>SW</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Insular Areas</edomv>
+      <edomvd>IA</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Alaska</edomv>
+      <edomvd>AK</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Northeast</edomv>
+      <edomvd>NE</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Southeast</edomv>
+      <edomvd>SE</edomvd>
+      <edomvds>LF Remap</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>Fuelbed_Name</attrlabl>
+        <attrdef>Fuel bed name.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><udom>Fuel bed name. See the ADD for additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Filename</attrlabl>
+        <attrdef>File name.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><udom>File name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Canopy_tot</attrlabl>
+        <attrdef>Canopy fuel.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>608.38</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Canopy_ava</attrlabl>
+        <attrdef>Canopy fuel.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>113.35</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shrub_tpa</attrlabl>
+        <attrdef>Shrub fuel.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>23.78</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Herb_tpa</attrlabl>
+        <attrdef>Herbaceous fuel (non-woody).</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>6.34</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wood_tpa</attrlabl>
+        <attrdef>Woody fuel</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>65.39</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LLM_tpa</attrlabl>
+        <attrdef>Litter, lichen, moss fuel.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>43.41</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ground_tpa</attrlabl>
+        <attrdef>Ground fuel.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>412.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total_avai</attrlabl>
+        <attrdef>total_avai</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>421.98</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total_abov</attrlabl>
+        <attrdef>total_abov</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>716.75</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R</attrlabl>
+        <attrdef>Red color value/255</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G</attrlabl>
+        <attrdef>Green color value/255</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B</attrlabl>
+        <attrdef>Blue color value/255</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RED</attrlabl>
+        <attrdef>Red color value.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GREEN</attrlabl>
+        <attrdef>Green color value.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BLUE</attrlabl>
+        <attrdef>Blue color value.</attrdef>
+        <attrdefs>LF Remap</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>LANDFIRE (LF) Remap Fuel Characteristic Classification System Fuelbeds (FCCS). An Attribute Table is included with each product download as a .dbf and embedded in the metadata. The Attribute Data Dictionary (ADD) can be found at https://www.landfire.gov/.</eaover>
+      <eadetcit>https://www.landfire.gov/fccs.php</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntemail>helpdesk@landfire.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>the product is reproduced from geospatial information prepared by the U.S. Department of the Interior (DOI) USGS EROS. By removing the contents of the package or taking receipt of these files via electronic file transfer methods, you understand that the data stored on the media can be updated at any time. Represented features may not be in an accurate geographic location. USGS EROS makes no expressed or implied warranty, including warranty of merchantability and fitness, with respect to the character, function, or capabilities of the data or their appropriateness for any user's purposes. USGS EROS reserves the right to correct, update, modify, or replace the geospatial information without notification.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+<formname>ARCG</formname>
+<formverd>20210225</formverd> 
+<formspec>LF Remap</formspec>
+</digtinfo>
+<digtopt><onlinopt><computer><networka><networkr>https://www.landfire.gov</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20210225</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LANDFIRE, Earth Resources Observation and Science Center (EROS), U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntemail>helpdesk@landfire.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+<metscs>None</metscs>
+<metsc>Unclassified</metsc>
+<metshd>None</metshd>
+</metsi>
+  </metainfo>
+</metadata>
