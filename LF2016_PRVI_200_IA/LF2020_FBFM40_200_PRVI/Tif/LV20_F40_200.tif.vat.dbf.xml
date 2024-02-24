@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20231223</CreaDate><CreaTime>21421000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20231223" Time="214210">DeleteField LV20_F40_200.tif FBFM40;R;G;B;RED;GREEN;BLUE "Delete Fields"</Process></lineage></DataProperties></Esri></metadata>
